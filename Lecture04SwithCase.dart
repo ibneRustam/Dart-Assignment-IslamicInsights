@@ -1,5 +1,9 @@
+import 'dart:io';
+
 void main() {
-  var day = "Jummah";
+  print("Enter day :");
+  String? input = stdin.readLineSync();
+  String day = input!;
 
   switch (day) {
     case "Friday":
